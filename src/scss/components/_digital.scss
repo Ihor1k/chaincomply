@@ -1,0 +1,98 @@
+.digital {
+    @media screen and (max-width: 480px) {
+        margin-top: 250px !important;
+    }
+}
+
+.digital-icon {
+    width: 55px;
+    height: 55px;
+    background-image: url('/src/images/digital3.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 400ms ease-in-out;
+    @media screen and (max-width: 480px) {
+        background-image: url('/src/images/digital3-red.svg');
+    }
+}
+
+.digital-icon-first {
+    width: 55px;
+    height: 55px;
+    background-image: url('/src/images/digital1.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 400ms ease-in-out;
+    @media screen and (max-width: 480px) {
+        background-image: url('/src/images/digital1-red.svg');
+    }
+}
+  
+.digital-icon-second {
+    width: 55px;
+    height: 55px;
+    background-image: url('/src/images/digital2.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 400ms ease-in-out;
+    @media screen and (max-width: 480px) {
+        background-image: url('/src/images/digital2-red.svg');
+    }
+}
+
+.digital-title {
+    color: var(--neutral-white, #FFF);
+    font-family: Manrope;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 48px */
+}
+
+.digital-text {
+    color: var(--neutral-light, #D1CFCF);
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 125% */
+}
+
+.digital-icon-fourth {
+    width: 55px;
+    height: 55px;
+    background-image: url('/src/images/digital4.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 400ms ease-in-out;
+}
+
+.item:hover .digital-icon-fourth {
+    background-image: url('/src/images/digital4-red.svg');
+  }
+
+.digital-icon-fifth {
+    width: 55px;
+    height: 55px;
+    background-image: url('/src/images/digital5.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 400ms ease-in-out;
+}
+
+.item:hover .digital-icon-fifth {
+    background-image: url('/src/images/digital5-red.svg');
+  }
+
+.digital-icon-six {
+    width: 55px;
+    height: 55px;
+    background-image: url('/src/images/digital6.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 400ms ease-in-out;
+}
+
+.item:hover .digital-icon-six {
+    background-image: url('/src/images/digital6-red.svg');
+  }

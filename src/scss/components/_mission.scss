@@ -1,0 +1,72 @@
+.mission-ell {
+    position: absolute;
+    top: -400px;
+    left: 0;
+    z-index: -1;
+    @media screen and (max-width: 480px) {
+        width: 100%;
+    }   
+}
+
+.mission-ell-right {
+    position: absolute;
+    top: -400px;
+    right: 0;
+    z-index: -1;
+    @media screen and (max-width: 480px) {
+        width: 100%;
+    }
+}
+
+.mission-list {
+    display: flex;
+    justify-content: space-between;
+    // align-items: stretch;
+    gap: 20px;
+    @media screen and (max-width: 480px) {
+        flex-direction: column;    
+    }
+}   
+
+.mission-item {
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(5px);
+    // width: 48%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 100px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    @media screen and (max-width: 480px) {
+        width: 100%;   
+        align-items: unset; 
+        gap: 24px;
+    }
+}   
+
+.mission-item img {
+    border-radius: 14px;
+}
+
+.mission-title {
+    color: var(--neutral-white, #FFF);
+font-family: Manrope;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: 120%; /* 48px */
+margin-bottom: 20px;
+}
+
+.mission-text {
+    color: var(--neutral-light, #D1CFCF);
+font-family: Manrope;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 25.2px */
+max-width: 606px;
+width: 100%;
+}

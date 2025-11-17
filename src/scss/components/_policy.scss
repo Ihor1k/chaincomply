@@ -1,0 +1,50 @@
+
+
+.policy-title {
+    color: var(--neutral-white, #FFF);
+text-align: center;
+font-family: Manrope;
+font-size: 60px;
+font-style: normal;
+font-weight: 600;
+line-height: 110%; /* 66px */
+}
+
+.policy-text {
+    color: var(--neutral-white, #FFF);
+    text-align: center;
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 26px */
+    margin-top: 20px;
+// max-width: 866px;
+// width: 100%;
+}
+
+.policy-inner {
+    margin: 80px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.policy-num {
+    color: var(--neutral-white, #FFF);
+    font-family: Manrope;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%;
+    margin-bottom: 24px;
+}
+
+.policy-inner-text {
+    color: rgba(255, 255, 255, 0.80);
+font-family: Manrope;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%; /* 26px */
+}

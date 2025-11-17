@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="./images/favicon.svg" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chaincomply</title>
+    <link rel="stylesheet" href="./scss/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    /> -->
+  </head>
+  <body>
+    <div class="menu-overlay"></div>
+    <header class="header">
+      <div class="container">
+        <div class="header-inner">
+          <div class="header-logo">
+            <a href="/"
+              ><img
+                src="./images/logo.png"
+                width="138"
+                height="30"
+                alt="Logo"
+            /></a>
+          </div>
+          <div class="header-logo-mobile">
+            <a href="/"
+              ><img
+                src="./images/header-logo-mobile.png"
+                width="16"
+                height="22"
+                alt="Logo"
+            /></a>
+          </div>
+
+          <div class="burger">
+            <img src="./images/burger.svg" alt="" />
+          </div>
+
+          <div class="header-menu">
+            <div class="burger-close">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+              >
+                <path
+                  d="M6.4 19L5 17.6L10.6 12L5 6.4L6.4 5L12 10.6L17.6 5L19 6.4L13.4 12L19 17.6L17.6 19L12 13.4L6.4 19Z"
+                  fill="#FE170A"
+                />
+              </svg>
+            </div>
+            <a href="/index.html" class="header-link">Home</a>
+            <a href="./platform.html" class="header-link">Platform</a>
+            <a href="./service.html" class="header-link">Services</a>
+            <a href="./about.html" class="header-link header-link-active">About</a>
+          </div>
+
+          <div class="header-buttons mobile-visible">
+            <button class="header-button"><span>Get in Touch</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 13 13" fill="none">
+                <path d="M1 1L12 12L1 1ZM12 12V1.44V12ZM12 12H1.44H12Z" fill="white"/>
+                <path d="M1 1L12 12M12 12V1.44M12 12H1.44" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>  
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="popup-overlay" id="popup">
+        <div class="popup">
+          <div class="popup-block">
+            <div class="popup-inner">
+              <div class="popup-context">
+                <h3><span class="orange">Contact</span> Us</h3>
+                <p>
+                  Let’s discuss how Chaincomply can help strengthen your financial infrastructure. <br> Whether you’re exploring blockchain adoption or modernizing your existing systems, our team is ready to assist
+                </p>
+              </div>
+    
+              <form class="popup-form" id="joinForm">
+                <input type="text" id="name" name="name" placeholder="YOUR Name" required />
+                <input type="text" id="company" placeholder="COMPANY NAME"/>
+                <input type="email" id="email" name="email" placeholder="E-mail" required />
+              
+                <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+              
+                <div class="popup-wrapper">
+                  <button type="submit" class="popup-btn hero-button">Send Message
+                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 13 13" fill="none">
+                      <path d="M1 1L12 12M12 12V1.44M12 12H1.44" stroke="#C70C01" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+          
+   
+          <span class="close-popup"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+            <path d="M1 13L13 1M1 1L13 13" stroke="#FE170A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg></span>
+        </div>
+      </div>
+
+    <section id="top" class="hero">
+      <div class="video">
+        <video autoplay muted loop playsinline>
+          <source src="./videos/about-video-less.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="container">
+        <div class="hero-inner">
+          <h1 class="hero-title">Trust. <span class="orange"> Technology.</span> Transparency</h1>
+          <p class="hero-text">Chaincomply builds blockchain-enabled financial infrastructure that helps organizations transact securely, comply confidently, and grow sustainably. We believe in technology that empowers — not replaces — the institutions that shape tomorrow’s financial systems.</p>
+          <button class="hero-button contact-button">
+            Contact Us
+            <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 13 13" fill="none">
+              <path d="M1 1L12 12M12 12V1.44M12 12H1.44" stroke="#C70C01" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="glass">
+        <div class="container">
+          <div class="glass-block">
+            <img class="glass-img" src="./images/ellipse-built.png" alt="">
+            <div class="content">
+              <h2 class="title" style="max-width: 1000px;"><span class="orange">Who</span> We Are</h2>
+                <p class="text" style="max-width: 864px;">Chaincomply is a software company specializing in blockchain infrastructure for fintech, SaaS, and enterprise clients. We develop and maintain self-hosted systems that combine secure payment processing, wallet management, and automated compliance.
+                    <br><br>
+                    Our technology is designed for organizations that require both innovation and accountability — giving them the flexibility of decentralized systems with the confidence of enterprise-grade control</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="mission">
+        <img class="mission-ell" src="./images/mission-ell.png" alt="">
+        <img class="mission-ell-right" src="./images/mission-ell2.png" alt="">
+        <div class="container">
+            <div class="mission-list">
+                <div class="mission-item">
+                    <img src="./images/missionq.png" alt="">
+                    <div class="mission-content">
+                        <h5 class="mission-title">Our Mission</h5>
+                        <p class="mission-text">To deliver blockchain infrastructure that enables compliant, scalable, and privacy-first financial operations for modern digital businesses</p>
+                    </div>
+                </div>
+                <div class="mission-item">
+                    <img src="./images/mission2.png" alt="">
+                    <div class="mission-content">
+                        <h5 class="mission-title">Our Vision</h5>
+                        <p class="mission-text">To set the benchmark for secure and compliant blockchain ecosystems — where innovation and regulation coexist naturally</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+    <section class="how">
+        <div class="video">
+            <video autoplay muted loop playsinline>
+              <source src="./videos/about-how-video-less.mp4" type="video/mp4">
+            </video>
+          </div>
+        <div class="container">
+            <div class="content">
+                <h3 class="title" style="max-width: 854px;">Security by Design. Compliance by Default</h3>
+                <p class="text" style="max-width: 864px;"> Every Chaincomply product is built with precision, transparency, and trust at its core. We believe true innovation happens when performance, privacy, and regulation work together — not against each other</p>
+            </div>
+            <div class="how__stage" id="howStage">
+                <div class="how__rail"></div>
+          
+                <!-- КАРТКИ (позиція по осі X/Y) -->
+                <article class="how-card" data-step="0" style="--x:12%; --y:22%">
+                  <p>Privacy-centric 
+                    architecture </p>
+                </article>
+          
+                <article class="how-card" data-step="1" style="--x:36%; --y:85%">
+                  
+                  <p>Adaptive regulatory compliance</p>
+                </article>
+          
+                <article class="how-card" data-step="2" style="--x:62%; --y:26%">
+                  <p>Operational 
+                    transparency </p>
+                </article>
+          
+                <article class="how-card" data-step="3" style="--x:86%; --y:85%">
+                  <p>Continuous technological improvement </p>
+                </article>
+          
+                <!-- Точки-індикатори -->
+                <div class="how__dots" id="howDots" aria-hidden="true">
+                  <span class="dot" data-step="0" style="--x:12%"></span>
+                  <span class="dot" data-step="1" style="--x:36%"></span>
+                  <span class="dot" data-step="2" style="--x:62%"></span>
+                  <span class="dot" data-step="3" style="--x:86%"></span>
+                </div>
+              </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="container">
+            <div class="content">
+                <h3 class="title">Partnership <span class="orange">Approach</span></h3>
+                <p class="text">Our clients don’t just use our platform — they grow with it. <br> We work closely with each partner to understand their operational needs, compliance landscape, and long-term objectives. <br>From deployment to optimization, Chaincomply remains a proactive technical ally — 
+                    not just a vendor</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="glass partner contact">
+      <div class="container">
+        <div class="glass-block">
+          <img class="partner-ell-left" src="./images/partner-ell-left.png" alt="">
+          <img class="partner-ell-right" src="./images/partner-ell-right.png" alt="">
+          <div class="popup-inner">
+            <div class="popup-context">
+              <h3><span class="orange">Contact</span> Us</h3>
+              <p>
+                Let’s discuss how Chaincomply can help strengthen your financial infrastructure. <br> Whether you’re exploring blockchain adoption or modernizing your existing systems, our team is ready to assist
+              </p>
+            </div>
+  
+            <form class="popup-form" id="joinForm" style="width: 70%;">
+              <input type="text" id="name" name="name" placeholder="YOUR Name" required />
+              <input type="text" id="company" placeholder="COMPANY NAME"/>
+              <input type="email" id="email" name="email" placeholder="E-mail" required />
+            
+              <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+            
+              <div class="popup-wrapper">
+                <button type="submit" class="popup-btn hero-button">Send Message
+                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 13 13" fill="none">
+                    <path d="M1 1L12 12M12 12V1.44M12 12H1.44" stroke="#C70C01" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-inner">
+          <div class="footer-col">
+            <img src="./images/footer-logo.png" width="206" height="55" alt="" class="footer-logo">
+            <div class="footer-context">
+              <p class="footer-address">Address:</p>
+              <p class="footer-text">Chaincomply Ltd, Thivon 5, Kaimakli, 1026 Nicosia, Cyprusó</p>
+            </div>
+            
+          </div>
+          <div class="footer-col">
+            <div class="header-menu">
+              <a href="/index.html" class="header-link">Home</a>
+              <a href="./platform.html" class="header-link">Platform</a>
+              <a href="./service.html" class="header-link">Services</a>
+              <a href="./about.html" class="header-link header-link-active">About</a>
+              <a href="./politic.html" class="header-link">Privacy Policy</a>
+            </div>
+            <div class="footer-context">
+              <p class="footer-address">Email:</p>
+              <p class="footer-text">info@chaincomply.net</p>
+            </div>
+          </div>
+          <div class="footer-col" style="justify-content: space-between; align-items: flex-end;">
+            <a href="#top" class="arrow-top">
+              <svg xmlns="http://www.w3.org/2000/svg" width="17" height="18" viewBox="0 0 17 18" fill="none">
+                <path d="M8.5 17V1M8.5 1L1 8.55556M8.5 1L16 8.55556" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+            <p class="copyright">© 2025 Chaincomply Ltd. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="./main.js"></script>
+    <!-- <script src="https://unpkg.com/swiper@11/swiper-bundle.min.js"></script> -->
+  </body>
+</html>

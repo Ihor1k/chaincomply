@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="./images/favicon.svg" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chaincomply</title>
+    <link rel="stylesheet" href="./scss/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    /> -->
+  </head>
+  <body>
+    <div class="menu-overlay"></div>
+    <header class="header">
+      <div class="container">
+        <div class="header-inner">
+          <div class="header-logo">
+            <a href="/"
+              ><img
+                src="./images/logo.png"
+                width="138"
+                height="30"
+                alt="Logo"
+            /></a>
+          </div>
+          <div class="header-logo-mobile">
+            <a href="/"
+              ><img
+                src="./images/header-logo-mobile.png"
+                width="16"
+                height="22"
+                alt="Logo"
+            /></a>
+          </div>
+
+          <div class="burger">
+            <img src="./images/burger.svg" alt="" />
+          </div>
+
+          <div class="header-menu">
+            <div class="burger-close">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+              >
+                <path
+                  d="M6.4 19L5 17.6L10.6 12L5 6.4L6.4 5L12 10.6L17.6 5L19 6.4L13.4 12L19 17.6L17.6 19L12 13.4L6.4 19Z"
+                  fill="#FE170A"
+                />
+              </svg>
+            </div>
+            <a href="/index.html" class="header-link">Home</a>
+            <a href="./platform.html" class="header-link">Platform</a>
+            <a href="./service.html" class="header-link header-link-active">Services</a>
+            <a href="./about.html" class="header-link">About</a>
+          </div>
+
+          <div class="header-buttons mobile-visible">
+            <button class="header-button"><span>Get in Touch</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 13 13" fill="none">
+                <path d="M1 1L12 12L1 1ZM12 12V1.44V12ZM12 12H1.44H12Z" fill="white"/>
+                <path d="M1 1L12 12M12 12V1.44M12 12H1.44" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>  
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="popup-overlay" id="popup">
+        <div class="popup">
+          <div class="popup-block">
+            <div class="popup-inner">
+              <div class="popup-context">
+                <h3><span class="orange">Contact</span> Us</h3>
+                <p>
+                  Let’s discuss how Chaincomply can help strengthen your financial infrastructure. <br> Whether you’re exploring blockchain adoption or modernizing your existing systems, our team is ready to assist
+                </p>
+              </div>
+    
+              <form class="popup-form" id="joinForm">
+                <input type="text" id="name" name="name" placeholder="YOUR Name" required />
+                <input type="text" id="company" placeholder="COMPANY NAME"/>
+                <input type="email" id="email" name="email" placeholder="E-mail" required />
+              
+                <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+              
+                <div class="popup-wrapper">
+                  <button type="submit" class="popup-btn hero-button">Send Message
+                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 13 13" fill="none">
+                      <path d="M1 1L12 12M12 12V1.44M12 12H1.44" stroke="#C70C01" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+          
+   
+          <span class="close-popup"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+            <path d="M1 13L13 1M1 1L13 13" stroke="#FE170A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg></span>
+        </div>
+      </div>
+
+    <section class="policy">
+        <div class="container">
+            <h2 class="policy-title">Privacy <span class="orange">Policy</span></h2>
+            <p class="policy-text">Chaincomply Ltd (hereinafter referred to as “we”, “our”, “us” or the “Company”), operating the website https://www.chaincomply.net, is a Cypriot company registered under number HE 480964, with its registered address at Thivon 5, Kaimakli, 1026 Nicosia, Cyprus</p>
+
+            <div class="policy-inner">
+                
+                <div class="policy-item">
+                    <h6 class="policy-num"><span class="orange">1.</span>Introduction</h6>
+                    <p class="policy-inner-text">
+                        This Privacy Policy explains how Chaincomply Ltd protects and processes personal data of individuals who access or use our website and services (hereinafter referred to as the “Services”).
+<br><br>
+We are committed to processing your personal data transparently, responsibly, and in accordance with the EU General Data Protection Regulation (Regulation (EU) 2016/679) (“GDPR”) and applicable Cyprus data protection laws.
+<br><br>
+Effective as of October 21 2025. The type of personal data we collect and process depends on the nature of your interaction with us and the Services requested.
+                    </p>
+                </div>
+
+                <div class="policy-item">
+                    <h6 class="policy-num"><span class="orange">2.</span> What We Collect</h6>
+                    <p class="policy-inner-text">
+                        Our Personal Data Protection Policy governs how we use and store your data. Chaincomply Ltd acts as the Data Controller of any personal data you provide. <br><br>
+
+We collect only the minimal data necessary to operate and improve our Services. This may include: <br>
+&#8226; Name, surname <br>
+&#8226; Email address <br>
+&#8226; Telephone number <br>
+&#8226;     Company or organization name (if provided) <br><br><br>
+Your personal information is collected when you fill in forms on our website, such as the contact form, or when you communicate with us directly via email. <br><br>
+
+Your data may also be processed by authorized employees, contractors, or partners who assist in delivering our Services, strictly under confidentiality and data protection obligations.
+                    </p>
+                </div>
+
+                <div class="policy-item">
+                    <h6 class="policy-num"><span class="orange">3.</span> Why We Collect Your Data</h6>
+                    <p class="policy-inner-text">
+                        We collect and process personal data for the following purposes: <br>
+                        &#8226; To respond to your inquiries or requests <br>
+                        &#8226; To provide information about our Services <br>
+                        &#8226; To maintain communication and business relationships <br>
+                        &#8226; To comply with legal or regulatory obligations 
+<br><br>
+Legal Basis: <br>
+&#8226; Your consent (Article 6(1)(a) GDPR) <br>
+&#8226; Performance of a contract or steps prior to entering a contract (Article 6(1)(b) GDPR) <br>
+&#8226; Compliance with legal obligations (Article 6(1)(c) GDPR) <br>
+&#8226; Our legitimate interests (Article 6(1)(f) GDPR), such as maintaining secure operations and improving user experience
+                    </p>
+                </div>
+
+                <div class="policy-item">
+                    <h6 class="policy-num"><span class="orange">4.</span> Who Receives Your Personal Data</h6>
+                    <p class="policy-inner-text">
+                        Your personal data may be accessed by: <br>
+                        &#8226; Authorized employees or contractors of Chaincomply Ltd; <br>
+                        &#8226; Service providers and partners who assist with website hosting, email services, or data management; <br>
+                        &#8226; Legal or regulatory authorities, when required by law.
+<br><br>
+    All parties that process personal data on our behalf are contractually obligated to comply with applicable data protection standards and confidentiality requirements.
+                    </p>
+                </div>
+
+                <div class="policy-item">
+                    <h6 class="policy-num"><span class="orange">5. </span>Transfer of Data Outside the EEA</h6>
+                    <p class="policy-inner-text">
+                        Your personal data may be transferred outside the European Economic Area (EEA) only when necessary and always in accordance with applicable data protection laws. <br><br>  
+In such cases, we ensure that adequate safeguards are implemented, including Standard Contractual Clauses (SCCs) as approved under GDPR Article 46.
+                    </p>
+                </div>
+
+                <div class="policy-item">
+                    <h6 class="policy-num"><span class="orange">6.</span> Data Retention</h6>
+                    <p class="policy-inner-text">
+                        We retain personal data only for as long as necessary to fulfill the purposes for which it was collected or as required by law. <br><br>
+Once no longer needed, the data is securely deleted or anonymized.
+In certain cases (e.g., for archiving, research, or legal claims), data may be retained for a longer period, provided that proper safeguards are applied.
+                    </p>
+                </div>
+
+                <div class="policy-item">
+                    <h6 class="policy-num"><span class="orange">7.</span> Your Data Protection Rights</h6>
+                    <p class="policy-inner-text">
+                        You have the following rights regarding your personal data: <br>    
+                        &#8226; Access: Request a copy of the personal data we hold about you. <br>
+                        &#8226; Rectification: Request correction of inaccurate or incomplete data. <br>
+                        &#8226; Erasure (“Right to be Forgotten”): Request deletion of your data when there is no lawful reason to retain it. <br>
+                        &#8226; Restriction: Request limitation of processing under certain circumstances. <br>
+                        &#8226; Objection: Object to processing based on legitimate interest. <br>
+                        &#8226; Data Portability: Request transfer of your data to another controller, where applicable. <br>
+                        &#8226; Withdrawal of Consent: Withdraw previously granted consent at any time, without affecting the lawfulness of prior processing.
+<br><br>
+To exercise any of these rights, please contact us using the details below.
+                    </p>
+                </div>
+
+                <div class="policy-item">
+                    <h6 class="policy-num"><span class="orange">8.</span> Complaints</h6>
+                    <p class="policy-inner-text">If you believe your personal data has been processed in violation of applicable laws, you may first contact our team at: <br>Email: info@chaincomply.net <br><br>
+
+                        If your concern is not resolved, you have the right to file a complaint with the Office of the Commissioner for Personal Data Protection in Cyprus: <br>
+                        Address: Iasonos 1, 1082 Nicosia, Cyprus <br>Email:  commissioner@dataprotection.gov.cy <br> Website: www.dataprotection.gov.cy</p>
+                </div>
+
+                <div class="policy-item">
+                    <h6 class="policy-num"><span class="orange">9. </span>Changes to This Policy</h6>
+                    <p class="policy-inner-text">We may update this Privacy Policy periodically to reflect changes in our practices or legal requirements. <br>Any updates will be posted on this page with a revised “Effective Date.” <br>We encourage you to review this page regularly to stay informed about how we protect your data.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-inner">
+          <div class="footer-col">
+            <img src="./images/footer-logo.png" width="206" height="55" alt="" class="footer-logo">
+            <div class="footer-context">
+              <p class="footer-address">Address:</p>
+              <p class="footer-text">Chaincomply Ltd, Thivon 5, Kaimakli, 1026 Nicosia, Cyprusó</p>
+            </div>
+            
+          </div>
+          <div class="footer-col">
+            <div class="header-menu">
+              <a href="/index.html" class="header-link">Home</a>
+              <a href="./platform.html" class="header-link">Platform</a>
+              <a href="./service.html" class="header-link">Services</a>
+              <a href="./about.html" class="header-link">About</a>
+              <a href="./politic.html" class="header-link header-link-active ">Privacy Policy</a>
+            </div>
+            <div class="footer-context">
+              <p class="footer-address">Email:</p>
+              <p class="footer-text">info@chaincomply.net</p>
+            </div>
+          </div>
+          <div class="footer-col" style="justify-content: space-between; align-items: flex-end;">
+            <a href="#top" class="arrow-top">
+              <svg xmlns="http://www.w3.org/2000/svg" width="17" height="18" viewBox="0 0 17 18" fill="none">
+                <path d="M8.5 17V1M8.5 1L1 8.55556M8.5 1L16 8.55556" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+            <p class="copyright">© 2025 Chaincomply Ltd. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="./main.js"></script>
+    <!-- <script src="https://unpkg.com/swiper@11/swiper-bundle.min.js"></script> -->
+  </body>
+</html>

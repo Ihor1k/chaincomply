@@ -1,0 +1,56 @@
+.glass-block {
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.04);
+    padding: 64px;
+    backdrop-filter: blur(5px);
+    position: relative;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    @media screen and (max-width: 480px) {
+        padding: 24px;
+    }
+}
+
+.glass-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.partner-ell-left{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.partner-ell-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.partner-title {
+    @media screen and (max-width: 480px) {
+        font-size: 48px;
+    }
+}
+
+.partner-text {
+    color: var(--neutral-white, #FFF);
+    text-align: center;
+    font-family: Manrope;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 41.6px */
+    @media screen and (max-width: 480px) {
+        font-size: 20px;
+    }
+}
+
+.partner {
+    margin-bottom: 160px;
+}
