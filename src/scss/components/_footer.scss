@@ -21,7 +21,7 @@
     justify-content: space-between;
     @media screen and (max-width: 480px) {
         width: 100%;
-        align-items: center;
+        align-items: center !important;
     }
 }
 
@@ -48,6 +48,9 @@ font-style: normal;
 font-weight: 400;
 line-height: 150%; /* 27px */
 text-transform: capitalize;
+@media screen and (max-width: 480px) {
+    text-align: center;     
+}
 }
 
 .copyright {
@@ -57,6 +60,10 @@ font-size: 12px;
 font-style: normal;
 font-weight: 400;
 line-height: 140%; /* 16.8px */
+@media screen and (max-width: 480px) {
+    text-align: center;   
+    margin-top: 20px;  
+}
 }
 
 .arrow-top {
@@ -69,6 +76,9 @@ line-height: 140%; /* 16.8px */
     justify-content: center;
     cursor: pointer;
     transition: all 400ms ease-in-out;
+    @media screen and (max-width: 480px) {
+        display: none;    
+    }
 }
 
 .arrow-top:hover {

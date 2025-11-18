@@ -10,10 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <!-- <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
-    /> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
   </head>
   <body>
     <div class="menu-overlay"></div>
@@ -114,7 +111,7 @@
 
     <section id="top" class="hero">
       <div class="video" style="top: 230px;">
-        <video autoplay muted loop playsinline>
+        <video autoplay muted loop playsinline preload="auto">
           <source src="./videos/platform-video-less.mp4" type="video/mp4">
         </video>
       </div>
@@ -144,7 +141,7 @@
         </div>
 
         
-        <div class="built-slider">
+        <!-- <div class="built-slider">
             <div class="built-slider-track list">
               <div class="item">
                 <div class="built-icon-first"></div>
@@ -199,13 +196,89 @@
                   </svg>
               </button>
             </div>
-          </div>         
+          </div> -->
+          <div class="swiper built-swiper">
+            <div class="swiper-wrapper">
+              <!-- Slide 1 -->
+              <div class="swiper-slide">
+                <div class="item">
+                  <div class="built-icon-first"></div>
+                  <h4 class="built-title">Multiwallet Environment</h4>
+                  <p class="built-text none">
+                    Manage multiple assets and currencies from one <br> dashboard
+                  </p>
+                </div>
+              </div>
+        
+              <!-- Slide 2 -->
+              <div class="swiper-slide">
+                <div class="item">
+                  <div class="built-icon-second"></div>
+                  <h4 class="built-title">Automated Payouts</h4>
+                  <p class="built-text">
+                    Execute settlements and vendor payments <br> instantly
+                  </p>
+                </div>
+              </div>
+        
+              <!-- Slide 3 -->
+              <div class="swiper-slide">
+                <div class="item">
+                  <div class="built-icon-third"></div>
+                  <h4 class="built-title">Privacy-Preserved Routing</h4>
+                  <p class="built-text">
+                    Encrypted paths protect transaction <br> data
+                  </p>
+                </div>
+              </div>
+        
+              <!-- Slide 3 -->
+              <div class="swiper-slide">
+                <div class="item">
+                  <div class="built-icon-fouth"></div>
+                  <h4 class="built-title">Compliance Intelligence</h4>
+                  <p class="built-text">
+                    Real-time AML screening and risk <br> detection
+                  </p>
+                </div>
+              </div>
+  
+              <div class="swiper-slide">
+                <div class="item">
+                  <div class="built-icon-fifth"></div>
+                  <h4 class="built-title">Integration Layer</h4>
+                  <p class="built-text">
+                    Enterprise-ready APIs and SDKs for quick <br> deployment
+                  </p>
+                </div>
+              </div>
+        
+            </div>
+          </div>
+        
+          <!-- Навігація -->
+          <div class="builts-nav">
+            <button class="built-slider-arrow prev" aria-label="Previous">
+              <!-- стрілка ліворуч -->
+              <svg xmlns="http://www.w3.org/2000/svg" width="19" height="14" viewBox="0 0 19 14" fill="none">
+                <path d="M17.5 7H1.5M1.5 7L7.5 1M1.5 7L7.5 13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </button>
+            <button class="built-slider-arrow next" aria-label="Next">
+              <!-- стрілка праворуч, біла на чорному тлі -->
+              <svg xmlns="http://www.w3.org/2000/svg" width="19" height="14" viewBox="0 0 19 14" fill="none">
+                <path d="M1.5 7H17.5M17.5 7L11.5 1M17.5 7L11.5 13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </button>
+          </div>
+        
+
       </div>
     </section>
 
     <section class="how">
         <div class="video">
-            <video autoplay muted loop playsinline>
+            <video autoplay muted loop playsinline preload="auto">
               <source src="./videos/platform-built-video-less.mp4" type="video/mp4">
             </video>
           </div>
@@ -278,7 +351,7 @@
 
     <section class="core">
         <div class="video">
-            <video autoplay muted loop playsinline>
+            <video autoplay muted loop playsinline preload="auto">
               <source src="./videos/digital-video-less.mp4" type="video/mp4">
             </video>
           </div>
@@ -317,7 +390,7 @@
           <div class="content">
             <h2 class="title" style="max-width: 1000px;">Partner With <span class="orange">Chaincomply</span> </h2>
               <p class="partner-text">We design infrastructure that combines autonomy with accountability. <br> Whether you’re modernizing financial operations or embedding blockchain capabilities into existing systems, our team is here to guide your next step.</p>
-              <a class="hero-button contact-button" style="margin-top: 0px;" href="">Get in Touch with Our Experts
+              <a class="hero-button contact-button" style="margin-top: 0px;">Get in Touch with Our Experts
                 <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 13 13" fill="none">
                   <path d="M1 1L12 12M12 12V1.44M12 12H1.44" stroke="#C70C01" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
@@ -335,7 +408,7 @@
             <img src="./images/footer-logo.png" width="206" height="55" alt="" class="footer-logo">
             <div class="footer-context">
               <p class="footer-address">Address:</p>
-              <p class="footer-text">Chaincomply Ltd, Thivon 5, Kaimakli, 1026 Nicosia, Cyprusó</p>
+              <p class="footer-text">Chaincomply Ltd, Thivon 5, Kaimakli, 1026 Nicosia, Cyprus</p>
             </div>
             
           </div>
@@ -365,6 +438,8 @@
     </footer>
 
     <script type="module" src="./main.js"></script>
+    <script type="module" src="./swiper.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <!-- <script src="https://unpkg.com/swiper@11/swiper-bundle.min.js"></script> -->
   </body>
 </html>
