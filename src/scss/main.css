@@ -1678,6 +1678,10 @@ body.menu-open {
   background: rgba(255, 255, 255, 0.14);
 }
 
+.text-transform {
+  text-transform: none;
+}
+
 .how__stage {
   margin-top: 80px;
   position: -webkit-sticky;

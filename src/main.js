@@ -1,3 +1,5 @@
+import "./slider";
+
 const popup = document.getElementById('popup');
 const openButtons = document.querySelectorAll('.button, .header-button, .equip-button, .contact-button');
 const closeBtn = document.querySelector('.close-popup');

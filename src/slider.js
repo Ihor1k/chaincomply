@@ -1,3 +1,4 @@
+document.addEventListener("DOMContentLoaded", () => {
 const slides = Array.from(document.querySelectorAll('.slide'));
     const btnPrev = document.querySelector('.slider-arrow--left');
     const btnNext = document.querySelector('.slider-arrow--right');
@@ -49,3 +50,4 @@ const slides = Array.from(document.querySelectorAll('.slide'));
 
     // Ініціалізація
     updateSlides();
+  });
