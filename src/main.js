@@ -108,7 +108,7 @@ if (burger && burgerClose && headerMenu && menuOverlay) {
   });
 }
 
-document.addEventListener("DOMContentLoaded", () => {
+
   const slides = Array.from(document.querySelectorAll('.slide'));
       const btnPrev = document.querySelector('.slider-arrow--left');
       const btnNext = document.querySelector('.slider-arrow--right');
@@ -132,19 +132,6 @@ document.addEventListener("DOMContentLoaded", () => {
           } else {
             slide.classList.add('slide--hidden');
           }
-  
-          // Керуємо програванням відео
-          const video = slide.querySelector('video');
-          if (idx === current) {
-            if (video && video.paused) {
-              video.play().catch(() => {});
-            }
-          } else {
-            if (video && !video.paused) {
-              video.pause();
-              video.currentTime = 0;
-            }
-          }
         });
       }
   
@@ -160,7 +147,7 @@ document.addEventListener("DOMContentLoaded", () => {
   
       // Ініціалізація
       updateSlides();
-    });
+
 
     // document.addEventListener('DOMContentLoaded', () => {
     //   const slider = document.querySelector('.built-slider-track');
